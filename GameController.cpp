@@ -23,7 +23,7 @@ void GameController::launch() {
 
     while (true) {
         view.printData(model.getPoints(), model.getLevel());
-        input = GameView::getUserInput(); // Usunięto deklarację zmiennej input
+        input = GameView::getUserInput();
         const char addPointCondition = 'b';
         const char exitCondition = 'e';
         const char saveCondition = 's';
